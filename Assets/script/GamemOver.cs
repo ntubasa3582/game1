@@ -3,9 +3,11 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
+
 public class GamemOver : MonoBehaviour
 {
-    int _gameover = 0;
+    [SerializeField] int _gameover;
+    [SerializeField] int _gameovercount;
     // Start is called before the first frame update
     void Start()
     {
@@ -15,7 +17,7 @@ public class GamemOver : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (_gameover == 5)
+        if (_gameover > _gameovercount)
         {
             ChangeScene();
         }

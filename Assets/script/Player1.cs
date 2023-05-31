@@ -6,7 +6,7 @@ using UnityEngine.SceneManagement;
 public class Player1 : MonoBehaviour
 {
 
-    int _score = 0;
+    [SerializeField] int _score = 0;
     // Start is called before the first frame update
     void Start()
     {
