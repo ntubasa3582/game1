@@ -36,5 +36,12 @@ public class player : MonoBehaviour
             Destroy(collision.gameObject);
             _text.text = _score.ToString("000");
         }
+        if (collision.gameObject.tag == "gomi2")
+        {
+            _score++;
+            _score++;
+            Destroy(collision.gameObject);
+            _text.text = _score.ToString("000");
+        }
     }
 }

@@ -560,6 +560,7 @@ GameObject:
   - component: {fileID: 1388707986}
   - component: {fileID: 1388707985}
   - component: {fileID: 1388707988}
+  - component: {fileID: 1388707989}
   m_Layer: 0
   m_Name: generator
   m_TagString: Untagged
@@ -670,6 +671,25 @@ MonoBehaviour:
   _generatorOnstart: 1
   _leftPos: -7
   _rightPos: 7
+--- !u!114 &1388707989
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1388707984}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 88da5fed81cd71942b8d276a794d8e5f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _gomiprehub: {fileID: 1523687090275166784, guid: a37e726aa8761b347b548e83bd909e9b, type: 3}
+  _interval: 15
+  _generatorOnstart: 1
+  _leftPos: -6
+  _rightPos: 6
+  _aaa: {fileID: 0}
+  _topPos: 0
 --- !u!1 &1422969132
 GameObject:
   m_ObjectHideFlags: 0

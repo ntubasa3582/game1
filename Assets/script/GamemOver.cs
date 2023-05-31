@@ -27,6 +27,12 @@ public class GamemOver : MonoBehaviour
             _gameover++;
             Debug.Log(_gameover);
         }
+        if (collision.gameObject.tag == "gomi")
+        {
+            _gameover++;
+            _gameover++;
+            Debug.Log(_gameover);
+        }
     }
     void ChangeScene()
     {
