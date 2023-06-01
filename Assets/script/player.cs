@@ -28,20 +28,21 @@ public class player : MonoBehaviour
         {
             _score++;
             Destroy(collision.gameObject);
-            _text.text = _score.ToString("000");
+            _text.text = _score.ToString("00");
         }
         if (collision.gameObject.tag == "sumaho")
         {
            _score--;
             Destroy(collision.gameObject);
-            _text.text = _score.ToString("000");
+            _text.text = _score.ToString("00");
         }
         if (collision.gameObject.tag == "gomi2")
         {
             _score++;
             _score++;
             Destroy(collision.gameObject);
-            _text.text = _score.ToString("000");
+            _text.text = _score.ToString("00");
+            _text.text = _score.ToString("00");
         }
     }
 }
