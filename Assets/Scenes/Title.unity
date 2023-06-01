@@ -303,6 +303,7 @@ GameObject:
   - component: {fileID: 760116154}
   - component: {fileID: 760116153}
   - component: {fileID: 760116152}
+  - component: {fileID: 760116155}
   m_Layer: 5
   m_Name: Button (Legacy)
   m_TagString: Untagged
@@ -386,6 +387,30 @@ MonoBehaviour:
           m_StringArgument: game H
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1676417086}
+        m_TargetAssemblyTypeName: koukaon, Assembly-CSharp
+        m_MethodName: ClickSound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 0}
+        m_TargetAssemblyTypeName: scenechange, Assembly-CSharp
+        m_MethodName: 
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: 
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &760116153
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -424,6 +449,21 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 760116150}
   m_CullTransparentMesh: 1
+--- !u!114 &760116155
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 760116150}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e19747de3f5aca642ab2be37e372fb86, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_EffectColor: {r: 0, g: 0, b: 0, a: 0.5}
+  m_EffectDistance: {x: 1, y: -1}
+  m_UseGraphicAlpha: 1
 --- !u!1 &803220260
 GameObject:
   m_ObjectHideFlags: 0
@@ -521,7 +561,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
   m_PlayOnAwake: 1
-  m_Volume: 0.286
+  m_Volume: 1
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -698,6 +738,18 @@ MonoBehaviour:
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: game E
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1676417086}
+        m_TargetAssemblyTypeName: koukaon, Assembly-CSharp
+        m_MethodName: ClickSound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
 --- !u!114 &956210990
@@ -909,6 +961,52 @@ RectTransform:
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0, y: 0}
+--- !u!1 &1676417085
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1676417087}
+  - component: {fileID: 1676417086}
+  m_Layer: 0
+  m_Name: GameObject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1676417086
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1676417085}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab0b8db45c90ccb47b46b83eac4e6125, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _sound1: {fileID: 8300000, guid: cac59acb1251aa047950d1cff578d11c, type: 3}
+  _audioSource: {fileID: 803220264}
+--- !u!4 &1676417087
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1676417085}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 928.29504, y: 909.7172, z: -18.036993}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1746968794
 GameObject:
   m_ObjectHideFlags: 0
@@ -1005,6 +1103,18 @@ MonoBehaviour:
           m_StringArgument: game N
           m_BoolArgument: 0
         m_CallState: 2
+      - m_Target: {fileID: 1676417086}
+        m_TargetAssemblyTypeName: koukaon, Assembly-CSharp
+        m_MethodName: ClickSound
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1746968797
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1087,6 +1197,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: fb529a237badbe6428ee7b29d8bd58de, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  _interval: 1
 --- !u!4 &1875702454
 Transform:
   m_ObjectHideFlags: 0
