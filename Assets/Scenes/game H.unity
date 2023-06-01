@@ -846,7 +846,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _gomiprehub: {fileID: 3835456496351722381, guid: ee8ebbca37aa8784bb253f057a501e1f, type: 3}
-  _interval: 0.75
+  _interval: 0.7
   _generatorOnstart: 1
   _leftPos: -8
   _rightPos: 8
@@ -949,7 +949,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _gomiprehub: {fileID: 1523687090275166784, guid: a37e726aa8761b347b548e83bd909e9b, type: 3}
-  _interval: 18
+  _interval: 16
   _generatorOnstart: 1
   _leftPos: -6
   _rightPos: 6
@@ -1141,7 +1141,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eff8231371d781140baf1d9316bea821, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _moveSpeed: 14
+  _moveSpeed: 13
 --- !u!61 &1629863742
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1216,6 +1216,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _sound1: {fileID: 8300000, guid: 96a478026859a6b41b9d8a979c28fd9c, type: 3}
+  _sound2: {fileID: 8300000, guid: c9466ccdedcdd044495038fdb901d403, type: 3}
   _audioSource: {fileID: 0}
   _score: 0
   _clear: 60
@@ -2042,6 +2043,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _sound1: {fileID: 8300000, guid: 5a8bcf95a74ac1a48a0d6946f7f517f1, type: 3}
+  _sound2: {fileID: 8300000, guid: 2fd2d0d1be3778144a33ae98ffd3f30f, type: 3}
   _text: {fileID: 1193477638}
 --- !u!82 &2124620472
 AudioSource:

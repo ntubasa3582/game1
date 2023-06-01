@@ -6,6 +6,7 @@ using UnityEngine.UI;
 public class gameovercount : MonoBehaviour
 {
     public AudioClip _sound1;
+    public AudioClip _sound2;
     AudioSource _audioSource;
     [SerializeField] Text _text;
     int _score = 20;
@@ -43,8 +44,10 @@ public class gameovercount : MonoBehaviour
         }
         if(collision.gameObject.tag == "sumaho")
         {
+            _audioSource.PlayOneShot(_sound2);
             Debug.Log("a");
             Destroy(collision.gameObject);
+
         }
     }
 }

@@ -17,7 +17,7 @@ public class GamemOver : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (_gameover >= _gameovercount)
+        if (_gameover >= _gameovercount ||_gameover > _gameovercount)
         {
             ChangeScene();
         }

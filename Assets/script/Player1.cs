@@ -8,6 +8,7 @@ using UnityEngine.UI;
 public class Player1 : MonoBehaviour
 {
     public AudioClip _sound1;
+    public AudioClip _sound2;
     public AudioSource _audioSource;
     [SerializeField] int _score = 0;
     [SerializeField] int _clear = 0;
@@ -43,7 +44,7 @@ public class Player1 : MonoBehaviour
         if(collision.gameObject.tag == "sumaho")
         {
             _score--;
-            _audioSource.PlayOneShot(_sound1);
+            _audioSource.PlayOneShot(_sound2);
         }
     }
     void ChangeScene()
