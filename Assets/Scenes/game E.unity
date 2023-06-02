@@ -1688,7 +1688,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: a8a0f7f0ba0d9f34ea3f181306ed7d2b, type: 3}
-    m_FontSize: 60
+    m_FontSize: 50
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 0
@@ -2212,6 +2212,14 @@ PrefabInstance:
     - target: {fileID: 112491277726956367, guid: bb151254107c3ec41b666ad1d8e23c26, type: 3}
       propertyPath: m_FontData.m_Alignment
       value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 112491277726956367, guid: bb151254107c3ec41b666ad1d8e23c26, type: 3}
+      propertyPath: m_FontData.m_VerticalOverflow
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 112491277726956367, guid: bb151254107c3ec41b666ad1d8e23c26, type: 3}
+      propertyPath: m_FontData.m_HorizontalOverflow
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: bb151254107c3ec41b666ad1d8e23c26, type: 3}
