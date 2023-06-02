@@ -1686,7 +1686,7 @@ RectTransform:
   m_GameObject: {fileID: 1740758060}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2, y: 2, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 0}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2035471563}
@@ -1719,7 +1719,7 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 12800000, guid: fb79c8aa3fdf3e04ab10fd87d300e819, type: 3}
-    m_FontSize: 0
+    m_FontSize: 60
     m_FontStyle: 1
     m_BestFit: 0
     m_MinSize: 0
@@ -1727,8 +1727,8 @@ MonoBehaviour:
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
-    m_HorizontalOverflow: 0
-    m_VerticalOverflow: 0
+    m_HorizontalOverflow: 1
+    m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: "Space\u30AD\u30FC\u3092\u62BC\u3057\u3066\n\u30B9\u30BF\u30FC\u30C8"
 --- !u!222 &1740758063
@@ -2160,6 +2160,26 @@ PrefabInstance:
       propertyPath: m_Name
       value: Text (Legacy)
       objectReference: {fileID: 0}
+    - target: {fileID: 1567821808464016666, guid: 48c2fea49f31d46418958c28033bb666, type: 3}
+      propertyPath: m_FontData.m_MaxSize
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 1567821808464016666, guid: 48c2fea49f31d46418958c28033bb666, type: 3}
+      propertyPath: m_FontData.m_MinSize
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1567821808464016666, guid: 48c2fea49f31d46418958c28033bb666, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 1567821808464016666, guid: 48c2fea49f31d46418958c28033bb666, type: 3}
+      propertyPath: m_FontData.m_VerticalOverflow
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1567821808464016666, guid: 48c2fea49f31d46418958c28033bb666, type: 3}
+      propertyPath: m_FontData.m_HorizontalOverflow
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 1567821808464016667, guid: 48c2fea49f31d46418958c28033bb666, type: 3}
       propertyPath: m_Pivot.x
       value: 0.5
@@ -2195,6 +2215,14 @@ PrefabInstance:
     - target: {fileID: 1567821808464016667, guid: 48c2fea49f31d46418958c28033bb666, type: 3}
       propertyPath: m_SizeDelta.y
       value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 1567821808464016667, guid: 48c2fea49f31d46418958c28033bb666, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1567821808464016667, guid: 48c2fea49f31d46418958c28033bb666, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 1567821808464016667, guid: 48c2fea49f31d46418958c28033bb666, type: 3}
       propertyPath: m_LocalPosition.x
