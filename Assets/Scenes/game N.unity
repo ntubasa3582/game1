@@ -979,6 +979,14 @@ PrefabInstance:
       value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 112491277726956361, guid: bb151254107c3ec41b666ad1d8e23c26, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 112491277726956361, guid: bb151254107c3ec41b666ad1d8e23c26, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 112491277726956361, guid: bb151254107c3ec41b666ad1d8e23c26, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
       objectReference: {fileID: 0}
@@ -1008,11 +1016,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 112491277726956361, guid: bb151254107c3ec41b666ad1d8e23c26, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -98
+      value: -90
       objectReference: {fileID: 0}
     - target: {fileID: 112491277726956361, guid: bb151254107c3ec41b666ad1d8e23c26, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -100
+      value: -118
       objectReference: {fileID: 0}
     - target: {fileID: 112491277726956361, guid: bb151254107c3ec41b666ad1d8e23c26, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1029,6 +1037,18 @@ PrefabInstance:
     - target: {fileID: 112491277726956362, guid: bb151254107c3ec41b666ad1d8e23c26, type: 3}
       propertyPath: m_Name
       value: Text (Legacy) (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 112491277726956367, guid: bb151254107c3ec41b666ad1d8e23c26, type: 3}
+      propertyPath: m_FontData.m_Font
+      value: 
+      objectReference: {fileID: 12800000, guid: a8a0f7f0ba0d9f34ea3f181306ed7d2b, type: 3}
+    - target: {fileID: 112491277726956367, guid: bb151254107c3ec41b666ad1d8e23c26, type: 3}
+      propertyPath: m_FontData.m_MaxSize
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 112491277726956367, guid: bb151254107c3ec41b666ad1d8e23c26, type: 3}
+      propertyPath: m_FontData.m_FontSize
+      value: 80
       objectReference: {fileID: 0}
     - target: {fileID: 112491277726956367, guid: bb151254107c3ec41b666ad1d8e23c26, type: 3}
       propertyPath: m_FontData.m_Alignment
